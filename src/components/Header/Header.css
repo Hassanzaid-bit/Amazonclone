@@ -1,0 +1,13 @@
+nav{
+    background-color: #131921;
+}
+logo{
+    width: 3rem;
+}
+.search-button{
+    background-color: #F3A847;
+    border: none;
+}
+.search-button:hover{
+    background-color: #F3A847;
+}
