@@ -7,7 +7,7 @@ import AmazonLogo from './amazon-logo-transparent.png'
 const Header = () => {
     return ( 
        
-        <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
+        <div class="navbar  shadow-lg bg-neutral text-neutral-content">
             <div class="px-2 mx-2">
                 <img className="logo w-36" src={AmazonLogo} alt="" />
             </div> 
