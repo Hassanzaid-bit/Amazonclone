@@ -1,7 +1,8 @@
 import './App.css';
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
-import Product from './components/Product/Product'
+import Product from './components/Product/Product';
+import Selection from './components/Selection/Selection';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
                   <Home>
                   <Product/>
                   </Home>
-                  <Product></Product>
+                
                 </Route>
               </Switch>
             </Router>
